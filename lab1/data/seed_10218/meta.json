@@ -1,0 +1,30 @@
+{
+  "N": 18,
+  "Q": 2,
+  "Y": 26,
+  "variant": 7,
+  "seed": 10218,
+  "products": [
+    "Мука",
+    "Сахар",
+    "Масло",
+    "Крупа",
+    "Консервы"
+  ],
+  "weeks": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "units": {
+    "demand": "ед./нед.",
+    "purchase_cost": "руб./ед.",
+    "holding_cost": "руб./(ед.·нед.)",
+    "initial_stock": "ед.",
+    "capacity": "ед.",
+    "order_limit": "ед./нед.",
+    "safety_stock": "ед.",
+    "objective": "руб. за 4 нед."
+  }
+}

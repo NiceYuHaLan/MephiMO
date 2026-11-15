@@ -1,0 +1,14 @@
+label,type,rhs,marginal,shadow_price,active,predicted_delta_per_unit,actual_delta_per_unit,actual_ok
+capacity[нед.1],capacity,124.0,-0.0,0.0,0,-0.0,0.0,1
+capacity[нед.2],capacity,124.0,-7.509999999999991,7.509999999999991,1,-7.509999999999991,-7.510000000009313,1
+capacity[нед.3],capacity,124.0,-0.0,0.0,0,-0.0,0.0,1
+capacity[нед.4],capacity,124.0,-0.0,0.0,0,-0.0,0.0,1
+order_limit[нед.1],order_limit,620.0,-0.0,0.0,0,-0.0,0.0,1
+order_limit[нед.2],order_limit,620.0,-0.0,0.0,0,-0.0,0.0,1
+order_limit[нед.3],order_limit,620.0,-0.0,0.0,0,-0.0,0.0,1
+order_limit[нед.4],order_limit,620.0,-0.0,0.0,0,-0.0,0.0,1
+safety_stock[Мука],safety_stock,-8.0,-113.19,113.19,1,-113.19,-113.19000000000233,1
+safety_stock[Сахар],safety_stock,-8.0,-102.57,102.57,1,-102.57,-102.57000000000698,1
+safety_stock[Масло],safety_stock,-8.0,-155.2,155.2,1,-155.2,-155.20000000001164,1
+safety_stock[Крупа],safety_stock,-6.0,-137.16,137.16,1,-137.16,-137.1600000000035,1
+safety_stock[Консервы],safety_stock,-8.0,-153.61999999999998,153.61999999999998,1,-153.61999999999998,-153.61999999999534,1

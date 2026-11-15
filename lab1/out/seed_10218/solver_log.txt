@@ -1,0 +1,40 @@
+=== ЛР № 1 base seed=10218 ===
+Solver: HiGHS via scipy.optimize.linprog(method='highs-ds')
+LP form: min c^T z, A_ub z <= b_ub, A_eq z = b_eq, z >= 0
+Variables: 40
+Inequality rows: 13
+Equality rows: 20
+Status code: 0 (optimal)
+Solver message: Optimization terminated successfully. (HiGHS Status 7: Optimal)
+Objective value: 196693.74000000002
+Simplex/IPM iterations reported: 22
+Active inequality constraints (6): capacity[нед.2], safety_stock[Мука], safety_stock[Сахар], safety_stock[Масло], safety_stock[Крупа], safety_stock[Консервы]
+
+=== HiGHS output ===
+Running HiGHS 1.12.0 (git hash: 4f96ee8f4): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 33 rows; 40 cols; 100 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 1e+00]
+  Cost    [2e+00, 2e+02]
+  Bound   [0e+00, 0e+00]
+  RHS     [6e+00, 6e+02]
+Presolving model
+23 rows, 35 cols, 85 nonzeros  0s
+Dependent equations search running on 15 equations with time limit of 1000.00s
+Dependent equations search removed 0 rows and 0 nonzeros in 0.00s (limit = 1000.00s)
+22 rows, 35 cols, 80 nonzeros  0s
+Presolve reductions: rows 22(-11); columns 35(-5); nonzeros 80(-20) 
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     4.5055390372e+04 Pr: 15(1157) 0s
+         22     1.9669374000e+05 Pr: 0(0) 0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 22
+Objective value     :  1.9669374000e+05
+P-D objective error :  2.2194725013e-16
+HiGHS run time      :          0.00

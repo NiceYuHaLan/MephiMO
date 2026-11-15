@@ -1,0 +1,14 @@
+Независимая проверка решения (NumPy, допуск 1e-7).
+Статус решения: optimal
+Objective из солвера: 196693.74000000002
+Objective пересчитан из x: 196693.74
+Разница objectives: 2.9103830456733704e-11
+Проверки:
+- bounds: все x >= 0: PASS, max violation 0.000e+00
+- bounds: все I >= 0: PASS, max violation 0.000e+00
+- balance: inventory = stock + procurement - demand: PASS, max violation 0.000e+00
+- capacity: начальный запас <= capacity: PASS, max violation 0.000e+00
+- capacity: сумма запасов <= capacity: PASS, max violation 0.000e+00
+- order_limit: закупки <= лимит: PASS, max violation 0.000e+00
+- safety_stock: конечный запас >= страховой: PASS, max violation 0.000e+00
+Независимая проверка допустимости: PASS
