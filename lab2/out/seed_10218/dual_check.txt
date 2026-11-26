@@ -1,0 +1,23 @@
+Проверка двойственности (сильная двойственность и дополняющая двойственность).
+Primal objective: 18735.1400000000
+Dual objective:   18735.1400000000
+|primal - dual|:  3.638e-12
+Max complementary slackness violation: 0.000e+00
+Max reduced cost violation (rc < 0):    0.000e+00
+
+Дуга, поток, rc, запас по мощности водителя, запас по ёмкости дуги:
+- Водитель A→Рейс 1: x=0.000, rc=1.330000, slack_driver=7.000, slack_arc=6.000
+- Водитель A→Рейс 2: x=0.000, rc=52.090000, slack_driver=7.000, slack_arc=6.000
+- Водитель B→Рейс 1: x=5.500, rc=0.000000, slack_driver=0.000, slack_arc=0.250
+- Водитель B→Рейс 2: x=1.500, rc=0.000000, slack_driver=0.000, slack_arc=4.500
+- Водитель C→Рейс 3: x=0.000, rc=70.000000, slack_driver=8.000, slack_arc=6.000
+- Водитель D→Рейс 4: x=5.500, rc=0.000000, slack_driver=2.500, slack_arc=0.500
+- Водитель E→Рейс 4: x=0.000, rc=88.640000, slack_driver=0.000, slack_arc=5.750
+- Водитель E→Рейс 5: x=5.500, rc=0.000000, slack_driver=0.000, slack_arc=0.500
+- Водитель E→Рейс 6: x=4.500, rc=0.000000, slack_driver=0.000, slack_arc=1.500
+- Водитель F→Рейс 1: x=0.000, rc=4.970000, slack_driver=5.000, slack_arc=5.500
+- Водитель F→Рейс 2: x=4.500, rc=0.000000, slack_driver=5.000, slack_arc=2.500
+- Водитель F→Рейс 3: x=5.500, rc=0.000000, slack_driver=5.000, slack_arc=0.500
+- Водитель F→Рейс 4: x=0.000, rc=136.820000, slack_driver=5.000, slack_arc=6.000
+- Водитель F→Рейс 5: x=0.000, rc=99.090000, slack_driver=5.000, slack_arc=6.000
+- Водитель F→Рейс 6: x=1.000, rc=0.000000, slack_driver=5.000, slack_arc=5.000

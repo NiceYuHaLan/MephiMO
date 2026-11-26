@@ -1,0 +1,7 @@
+scenario,lp_status,lp_cost,greedy_cost,greedy_unmet_h,gap,gap_pct,greedy_saturated_arcs
+base,optimal,18735.140000,18741.125000,0.000000,5.985000,0.0319,1
+overload,optimal,18738.631250,18741.125000,0.000000,2.493750,0.0133,1
+demand_up,optimal,22785.448500,22791.766000,0.000000,6.317500,0.0277,4
+arc_failure,optimal,18827.035000,18827.035000,0.000000,0.000000,0.0000,1
+stress,optimal,22879.860000,22879.860000,0.000000,0.000000,0.0000,5
+critical,infeasible,,,50.250000,,,0

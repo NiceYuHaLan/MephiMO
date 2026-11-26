@@ -1,0 +1,51 @@
+=== ЛР № 2 base seed=10218 ===
+Solver: HiGHS via scipy.optimize.linprog(method='highs-ds')
+LP form: min c^T x, A_ub x <= b_ub, A_eq x = b_eq, x >= 0
+Variables (дуги сети): 15
+Inequality rows (мощности водителей + ёмкости дуг): 21
+Equality rows (спрос рейсов): 6
+Status code: 0 (optimal)
+Solver message: Optimization terminated successfully. (HiGHS Status 7: Optimal)
+Objective value: 18735.14
+Iterations: 4
+Solve time: 0.007904 s
+presolve: True
+Active inequality constraints (2): мощность[Водитель B], мощность[Водитель E]
+Nonzero flows: Водитель B→Рейс 1=5.500, Водитель B→Рейс 2=1.500, Водитель D→Рейс 4=5.500, Водитель E→Рейс 5=5.500, Водитель E→Рейс 6=4.500, Водитель F→Рейс 2=4.500, Водитель F→Рейс 3=5.500, Водитель F→Рейс 6=1.000
+
+=== HiGHS output ===
+Running HiGHS 1.12.0 (git hash: 4f96ee8f4): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 27 rows; 15 cols; 45 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 1e+00]
+  Cost    [5e+02, 7e+02]
+  Bound   [0e+00, 0e+00]
+  RHS     [6e+00, 2e+01]
+Presolving model
+6 rows, 9 cols, 17 nonzeros  0s
+Dependent equations search running on 2 equations with time limit of 1000.00s
+Dependent equations search removed 0 rows and 0 nonzeros in 0.00s (limit = 1000.00s)
+6 rows, 9 cols, 17 nonzeros  0s
+Presolve reductions: rows 6(-21); columns 9(-6); nonzeros 17(-28) 
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0s
+          4     1.8735140000e+04 Pr: 0(0) 0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 4
+Objective value     :  1.8735140000e+04
+P-D objective error :  0.0000000000e+00
+HiGHS run time      :          0.00
+
+=== Статусы сценариев ===
+base: optimal, objective=18735.140000, nit=4
+overload: optimal, objective=18738.631250, nit=4
+demand_up: optimal, objective=22785.448500, nit=5
+arc_failure: optimal, objective=18827.035000, nit=1
+stress: optimal, objective=22879.860000, nit=3
+critical: infeasible, objective=None, nit=0
